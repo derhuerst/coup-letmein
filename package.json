@@ -2,7 +2,9 @@
 	"name": "coup-letmein",
 	"description": "Open the door at co.up Berlin.",
 	"version": "0.1.0",
-	"bin": "./index.js",
+	"bin": {
+		"letmein": "./index.js"
+	},
 	"preferGlobal": true,
 	"keywords": [
 		"co up",
