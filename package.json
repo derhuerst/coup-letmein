@@ -1,28 +1,14 @@
 {
-	"name": "coup-letmein",
-	"description": "Open the door at co.up Berlin.",
-	"version": "1.0.0",
-	"bin": {
-		"letmein": "./index.js"
-	},
+	"name":         "coup-letmein",
+	"description":  "Open the door at co.up coworking Berlin.",
+	"version":      "1.0.0",
+	"bin":          {"letmein": "./index.js"},
+	"files":        ["./index.js"],
 	"preferGlobal": true,
-	"keywords": [
-		"co up",
-		"coup",
-		"berlin",
-		"open",
-		"door",
-		"http",
-		"curl",
-		"javascript"
-	],
-	"author": {
-		"name": "Jannis R",
-		"email": "mail@jannisr.de",
-		"url": "http://jannisr.de"
-	},
-	"homepage": "https://github.com/derhuerst/coup-letmein",
-	"repository": "git://github.com/derhuerst/coup-letmein.git",
-	"bugs": "https://github.com/derhuerst/coup-letmein/issues",
-	"license": "ISC"
+	"keywords":     ["co.up", "coup", "berlin", "open", "door", "http", "curl"],
+	"author":       "Jannis R <mail@jannisr.de>",
+	"homepage":     "https://github.com/derhuerst/coup-letmein",
+	"repository":   "git://github.com/derhuerst/coup-letmein.git",
+	"bugs":         "https://github.com/derhuerst/coup-letmein/issues",
+	"license":      "ISC"
 }
