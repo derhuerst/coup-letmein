@@ -3,10 +3,15 @@
 
 const http = require('http')
 
-let req = http.request({host: '192.168.2.5', path: '/letmein'})
-req.on('socket', (socket) => socket.setTimeout(3000, () => req.abort()))
+
+
+const req = http.request({hostname: '192.168.2.5', port: 80, path: '/letmein'})
+
+req.on('socket', (s) => s.setTimeout(3000, () => req.abort()))
 req.on('error', (err) => {
-	console.error(`An ${err.code} error occured.`)
+	process.stdout.write(`\
+${err.code} error, connecting to port ${err.port} at ${err.address}.\n`)
 	process.exit(1)
 })
-req.end()
+
+req.end() // send request without a body
