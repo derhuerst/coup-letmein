@@ -1,7 +1,7 @@
 {
 	"name":         "coup-letmein",
 	"description":  "Open the door at co.up coworking Berlin.",
-	"version":      "1.0.0",
+	"version":      "2.0.0",
 	"bin":          {"letmein": "./index.js"},
 	"files":        ["./index.js"],
 	"preferGlobal": true,
