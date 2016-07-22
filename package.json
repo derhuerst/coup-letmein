@@ -1,9 +1,9 @@
 {
 	"name":         "coup-letmein",
 	"description":  "Open the door at co.up coworking Berlin.",
-	"version":      "2.0.0",
+	"version":      "2.0.1",
 	"bin":          {"letmein": "./index.js"},
-	"files":        ["./index.js"],
+	"files":        ["index.js"],
 	"preferGlobal": true,
 	"keywords":     ["co.up", "coup", "berlin", "open", "door", "http", "curl"],
 	"author":       "Jannis R <mail@jannisr.de>",
