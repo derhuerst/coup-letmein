@@ -20,6 +20,7 @@ req.on('response', (res) => {
 ${res.statusCode} ${res.statusMessage}\n`)
 		process.exit(1)
 	}
+	process.stdout.write('done 👌\n')
 })
 
 req.end() // send request without a body
